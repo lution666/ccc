@@ -26,7 +26,7 @@
 2.bbb
 3.ccc
 
-##引用
+## 引用
 - 用'>内容'表示
 > aa
 
@@ -34,33 +34,33 @@
 aaa
 ```
 
-##粗斜
+## 粗斜
 - 用'###内容###'表示
 ***a***
 
-##粗体
+## 粗体
 - 用'##内容##'表示
 **a**
 
-##斜体
+## 斜体
 - 用'*内容*'表示
 *a*
 
 
 ---
 
-##图片
+## 图片
 - 用“![RUNOOB 图标](链接)”表示
 ![aaa](https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K///it///u=4121232426,1436481329&fm=202&src=ry_add_wise)
 
-##链接
+## 链接
 [aaa](www.baidu.com)
 
-##图片链接
+## 图片链接
 [![aaa](https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K///it///u=4121232426,1436481329&fm=202&src=ry_add_wise)
 ](www.baidu.com)
 
-##代码段
+## 代码段
 ```
 console.log(bbb)
 ```
