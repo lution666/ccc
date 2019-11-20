@@ -1,69 +1,66 @@
-# git 笔记： http://note.youdao.com/noteshare?id=82594d8e6b22d52e8d3b29dc64b613e0
+#markdown语法
 
-# 第一个仓库
-1. `git init` 用于初始化仓库
+## 标题标记 
+- 用'#'表示标题标记，1个'#'表示最大的标题 (h1)
+- 用'#'表示标题标记，2个'#'表示二级的标题 (h2)
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
 
-2. 新建一个readme.md文件
+## 列表
+### 无序列表
+- 用'-'表示无序列表
+- 111
+- 222
+- 333 
++ 用'+'表示无序列表
++ 111
++ 222
++ 333
+* 用'*'表示无序列表
 
-3. `git add 文件名` 添加文件到本地仓库
-```
-git add .   //添加所有文件
-```
+### 有序列表
+1.aaa
+2.bbb
+3.ccc
 
-4. 添加用户名和邮箱(第一次的时候需要)
-```
-git config --global user.email '你的邮箱'
-git config --global user.name '你的用户名'
-```
+##引用
+- 用'>内容'表示
+> aa
 
-4. 提交
 ```
-git commit -m '注释' //注释是对本次提交的说明
-```
-
-5. 添加远程仓库地址
-```
-git remote add origin git@github.com:lizelong/ceshi.git
-```
-6. 将本地提交的内容推送到远程仓库
-```
-git push 远程仓库的别名 master
-git push abc master
-```
-
-6. 没有权限，先生成ssh key
-```
-ssh-keygen -t rsa -C '邮箱'
-
-执行完上一条命令后，会在 ~/.ssh/ 文件夹下面生成公钥文件 id_rsa.pub 
-将公钥文件中的内容，放到GitHub中：
-	右上角头像 -> settings -> SSH and GPG keys -> New SSH key
-	title： 仓库名
-	Key： id_rsa.pub 的内容
+aaa
 ```
 
+##粗斜
+- 用'###内容###'表示
+***a***
+
+##粗体
+- 用'##内容##'表示
+**a**
+
+##斜体
+- 用'*内容*'表示
+*a*
 
 
+---
 
-# 工作流程
-1. 初始化本地仓库
-2. 跟远程仓库建立连接
-	git remote add 远程仓库的别名(origin) 远程地址
-	git remote add origin git@github.com:lizelong/ceshi.git
-3. 开发模块
-4. 先添加所有文件
-	git add .
-5. 提交到本地仓库
-	git commit -m '添加index.html'
+##图片
+- 用“![RUNOOB 图标](链接)”表示
+![aaa](https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K///it///u=4121232426,1436481329&fm=202&src=ry_add_wise)
 
-git pull //拉取并合并
+##链接
+[aaa](www.baidu.com)
 
-# github pages
-目的： 为了更方便的查看HTML文件解析后的内容
+##图片链接
+[![aaa](https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K///it///u=4121232426,1436481329&fm=202&src=ry_add_wise)
+](www.baidu.com)
 
-
-
-
-
-# bootstrap 前端框架
-## 官网 bootcss.com
+##代码段
+```
+console.log(bbb)
+```
